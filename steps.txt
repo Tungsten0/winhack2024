@@ -1,0 +1,30 @@
+Start
+
+Initial Setup
+------------------------
+Download docker and node.js
+
+
+mkdir shopping-cart-app
+cd shopping-cart-app
+npm init -y
+
+
+Install dependencies
+npm install express dotenv express-jwt express-jwt-permissions mongoose react react-dom react-router-dom react-toastify react-icons bootstrap
+npm install --save-dev typescript @types/node @types/react @types/react-dom @types/express @types/mongoose
+
+(python312, 
+chocolatey-visualstudio.extension (≥ 1.9.0)
+vcredist140 (≥ 14.16.27027.1)
+visualstudio-installer (≥ 2.0.1)
+visualstudio2019buildtools (≥ 16.0.0.0)
+)
+
+Create a tsconfig.json file
+
+Create a new directory called src and inside it, create a file named server.ts
+
+Create a src/client directory and initialize a new React app inside it
+npx create-react-app . --template typescript
+

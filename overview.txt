@@ -1,0 +1,35 @@
+Shopping Cart Application w/ Modern Tech Stack - MERN (MongoDB, Express, React, Node)
+
+Languages:
+TypeScript
+(Javascript)
+---------------
+Frontend
+---------------
+React
+React-Toastify
+React-Icons
+Bootstrap CSS
+
+-----------------
+Backend
+-----------------
+Zustand (State Management)
+React Routing (Routing)
+
+dotenv (Environtmental Variables)
+
+Node.js
+Express (node.js web app framework)
+
+API Security:
+express-jwt (JSON Web Tokens)
+express-jwt-permissions (role-based access control)
+
+Database: MongoDB
+
+-------------------
+Deployment
+-------------------
+Docker
+GitHub Actions

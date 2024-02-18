@@ -1,0 +1,45 @@
+.cart-icon {
+  display: inline-block;
+  margin-right: 20px; /* Adjust this value as needed */
+  position: relative;
+}
+
+.cart-icon > svg {
+  width: 35px;
+  height: 35px;
+}
+
+.cart-icon::after {
+  content: '';
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}
+
+.wallet-icon {
+  display: inline-block;
+  margin-right: 25px;
+  position: relative;
+}
+
+.wallet-icon > svg {
+  width: 35px;
+  height: 35px;
+}
+
+
+.wallet-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 10px; /* Adjust margin as needed */
+}
